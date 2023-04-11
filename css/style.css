@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+body{
+    margin: 0 200px;
+ }
+h1{
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+}
+.sottotitolo{
+    text-align: center;
+    margin-top: 50px;
+}
+.conteiner{
+    max-width: 1170px;
+    margin-top: 20px;
+
+}
+.riga::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.riga{
+    width: 100%;
+    background-color: rgb(215, 250, 226);
+    
+}
+.colonna{
+    width: calc(100% / 3);
+    float: right;
+    background-color: blueviolet;
+}

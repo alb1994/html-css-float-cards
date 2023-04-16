@@ -11,28 +11,57 @@ h1{
     text-align: center;
     margin-top: 15px;
 }
+h3{
+    color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+}
 .sottotitolo{
     text-align: center;
     margin-top: 50px;
+    color: black;
 }
-.conteiner{
+main{
+    margin-top: 50px;
     max-width: 1170px;
-    margin-top: 20px;
-
-}
-.riga::after{
-    content: "";
-    display: table;
-    clear: both;
-
 }
 .riga{
     width: 100%;
-    background-color: rgb(215, 250, 226);
-    
+}
+.riga::after{
+    clear: both;
+    display: table;
+    content: '';
 }
 .colonna{
-    width: calc(100% / 3);
-    float: right;
-    background-color: blueviolet;
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    float: left;
+}
+div{
+    color: white;
+}
+.contenuto-colonna{
+    background-color: black;
+    color: white;
+}
+.contenuto-colonna::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.foto{
+    float: left;
+    width: 100px;
+}
+.testo-contenitore-colonna{
+    float: left;
+}
+a{
+    margin-left: 10px;
+}
+.professione{
+    margin-left: 10px;
 }
